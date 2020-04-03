@@ -19,18 +19,19 @@ print(message.lower())
 print(message.upper())
 print(message.count('Hello'))
 print(message.count('l'))
-print(message.find('world'))
+print(message.find('World'))
 print(message.find('universe'))
-print(message.replace('world','universe'))
+print(message.replace('World','universe'))
 #string concatenation
 #To print Hello, Michael. Welcome!
 greeting='Hello'
 name='Michael'
 message=greeting+', '+name+'. '+'Welcome!'
+print(message)
 message='{}, {}. Welcome!'.format(greeting,name)
+print(message)
 message=f'{greeting}, {name}. Welcome!'
+print(message)
 print(dir(str))
 print(help(str))
 print(help(str.lower))
-
-
