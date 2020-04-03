@@ -1,0 +1,67 @@
+courses=['Math','Social','Compsci']
+print(courses)
+print(len(courses))
+print(courses[0])
+print(courses[0:3])
+print(courses[0:])
+print(courses[:2])
+print(courses[-1])
+courses.append('Art')
+print(courses)
+courses.insert(0,'Art')
+print(courses)
+courses=['Math','Social','Compsci']
+courses_2=['Art','Eng']
+courses.insert(0,courses_2)
+print(courses)
+print(courses[0])
+courses=['Math','Social','Compsci']
+courses_2=['Art','Eng']
+courses.extend(courses_2)
+print(courses)
+courses=['Math','Social','Compsci']
+courses.remove('Math')
+print(courses)
+popped=courses.pop()
+print(courses)
+print(popped)
+courses=['Math','Social','Compsci']
+courses.reverse()
+print(courses)
+courses.sort()
+print(courses)
+courses.sort(reverse=True)
+print(courses)
+courses=['Math','Social','Compsci']
+sorted(courses)
+print(courses)
+sorted_courses=sorted(courses)
+print(sorted_courses)
+num=[2,1,8,4]
+print(min(num))
+print(max(num))
+print(sum(num))
+courses=['Math','Social','Compsci']
+print(courses.index('Social'))
+#print(courses.index('Art'))
+print('Math' in courses)
+print('Art' in courses)
+for item in courses:
+    print(item)
+for index,value in enumerate(courses):
+    print(index,value)
+for index,value in enumerate(courses,start=1):
+    print(index,value)
+courses=['Math','Social','Compsci']
+courses_str=' - '.join(courses)
+print(courses_str)
+new_list=courses_str.split(' - ')
+print(new_list)
+
+
+
+
+
+
+
+
