@@ -1,0 +1,33 @@
+#Comparision operators discussed in integers and floats
+language='Java'
+if language=='python':
+   print('python')
+elif language=='Java':
+   print('Java')
+else:
+   print('None')
+
+Admin='John'
+logged_in=True
+if Admin=='John' or logged_in==False:
+   print('result')
+else:
+   print('No result')
+   
+if not logged_in:
+   print('Found')
+else:
+   print('Not Found')
+
+a=[1,2,3,5,2]
+b=[5,9,3,4,2]
+print(id(a))
+print(id(b))
+print(a is b)
+
+a=[1,2,3,5,2]
+b=a
+print(id(a))
+print(id(b))
+print(a is b)
+
