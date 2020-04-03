@@ -1,0 +1,14 @@
+courses={'Math','Social','Eng'}
+print(courses)
+courses={'Math','Social','Eng','Eng'}
+print(courses)
+courses={'Math','Social','Eng'}
+courses_2={'Math','Eng'}
+print(courses.intersection(courses_2))
+print(courses.difference(courses_2))
+print(courses.union(courses_2))
+
+
+
+
+
