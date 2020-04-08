@@ -1,0 +1,44 @@
+#my_module.py has below code
+#  print('Imported my_module..')
+# test='Test string'
+#  def hello_func(greeting):
+#      return '{} Function'.format(greeting)
+
+#intro.py has below code
+
+import my_module
+courses='Hi'
+new_str=my_module.hello_func(courses)
+print(new_str)
+
+import my_module as mm
+courses='Hi'
+new_str=mm.hello_func(courses)
+print(new_str)
+
+from my_module import hello_func,test
+courses='Hi'
+new_str=hello_func(courses)
+print(new_str)
+print(test)
+
+from my_module import *
+courses='Hi'
+new_str=hello_func(courses)
+print(new_str)
+print(test)
+
+from my_module import hello_func,test
+import sys
+courses='Hi'
+new_str=hello_func(courses)
+print(sys.path)
+
+#if my_module location is in some other location
+import sys
+sys.path.append('/Users/Owner/Desktop/Python_2')
+from my_module import hello_func,test
+courses='Hi'
+new_str=hello_func(courses)
+print(sys.path)
+
