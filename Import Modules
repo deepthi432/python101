@@ -42,3 +42,13 @@ courses='Hi'
 new_str=hello_func(courses)
 print(sys.path)
 
+#Standard library modules
+#import random
+#import datetime
+#import calendar
+#import math
+#import os 
+#To get the location of current working directory
+print(os.getcwd())
+#To get location of files or modules in standard library
+print(os.__file__)
