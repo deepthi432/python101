@@ -1,2 +1,2 @@
 # python101
-Initial python learning
+Initial python basics learning
