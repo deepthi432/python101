@@ -146,3 +146,12 @@ your_house = np.array([14.0, 24.0, 14.25, 9.0])
 print(np.logical_or(my_house>18.5,my_house<10))
 # Both my_house and your_house smaller than 11
 print(np.logical_and(my_house<11,your_house<11))
+#-------for loop in 1D numpy array and 2D numpy array
+# Import numpy as np
+import numpy as np
+# For loop over np_height
+for height in np_height:
+    print(str(height)+" inches")
+# For loop over np_baseball
+for val in np.nditer(np_baseball):
+    print(val)
